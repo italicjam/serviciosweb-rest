@@ -24,7 +24,7 @@ public class CiudadDAO {
 		JSONArray json = new JSONArray();
 		//List<Ciudad> listaCiudad = new ArrayList<Ciudad>();
 		
-		String sql = "select id, nombre, altitud, estado from ciudad where estado = 'A'";
+		String sql = "select id, nombre, altitud, estado from USER04379.ciudad where estado = 'A'";
 		
 		try {
 			st = con.createStatement();
